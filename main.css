@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100PX;
+}
+
+header {
+    display: flex; /*organiza os elementos lado a lado*/
+    align-items: center; /*centraliza os elementos na página*/
+    margin-bottom: 40px; /* Separa o cabeçalho aplicando uma gargem para o corpo */
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px; /* Centraliza conteúdo na tela até ultra-wide */
+    width: 100%;  /* Centraliza conteúdo na tela até ultra-wide */
+    margin: 0 auto; /* Centraliza conteúdo na horizontal */
+}
+
+form {
+    display: flex; /* Uniformiza a fonte dos campos */
+    max-width: 640px; /* Área máxima de ocupação */
+    width: 100%; /* Centraliza conteúdo */
+    justify-content: space-between; /* Distribui espaçamento entre os ítens/campos */
+    margin-bottom: 56px;
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding:8px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+
+table {
+    width: 100%; /* para a abela ocupar todo o espaço do container */
+}
+
+}table th {
+    border-bottom: 2px solid #000;
+    padding: 16px; /* espaçamento */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table td img {
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: #009432;
+}
+
+.reprovado {
+    background-color: red;
+}
